@@ -1,0 +1,65 @@
+2025-07-27 16:45:41,778 - INFO - Loaded config from config.ini
+2025-07-27 16:45:41,804 - INFO - Connected to MySQL database.
+2025-07-27 16:45:41,806 - INFO - Ensured recent_matches table exists.
+2025-07-27 16:45:41,806 - INFO - Loaded 93 matches from data/processed/cleaned_matches.json
+2025-07-27 16:45:41,806 - INFO - Prepared 93 records for insertion.
+2025-07-27 16:45:41,820 - INFO - Inserted 93 records into recent_matches table.
+2025-07-27 16:45:41,820 - INFO - ETL load step completed successfully.
+2025-07-27 16:58:33,212 - INFO - Loaded config from config.ini
+2025-07-27 16:58:33,262 - INFO - Ensured database exists.
+2025-07-27 16:58:33,268 - INFO - Connected to MySQL database.
+2025-07-27 16:58:33,299 - INFO - Ensured all tables exist.
+2025-07-27 16:58:33,300 - INFO - Loaded 93 matches from data/processed/cleaned_matches.json
+2025-07-27 16:58:33,319 - INFO - ETL load step completed successfully.
+2025-07-27 17:08:31,510 - CRITICAL - ETL load step failed: (1524, "Plugin 'mysql_native_password' is not loaded")
+2025-07-27 17:21:07,397 - CRITICAL - ETL load step failed: (1524, "Plugin 'mysql_native_password' is not loaded")
+2025-07-27 17:25:53,548 - CRITICAL - ETL load step failed: (1524, "Plugin 'mysql_native_password' is not loaded")
+2025-07-27 17:28:04,998 - CRITICAL - ETL load step failed: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank INT,\n                flag VARCHAR(255),\n                team VARCHAR(255),\n' at line 2")
+2025-07-27 17:28:50,691 - INFO - Loaded data/processed/series.json
+2025-07-27 17:28:50,691 - INFO - Loaded data/processed/venues.json
+2025-07-27 17:28:50,691 - INFO - Loaded data/processed/teams.json
+2025-07-27 17:28:50,692 - INFO - Loaded data/processed/matches.json
+2025-07-27 17:28:50,692 - INFO - Loaded data/processed/icc_standings.json
+2025-07-27 17:28:50,693 - ERROR - Error inserting into series: (1146, "Table 'cricbuzz_etl.series' doesn't exist")
+2025-07-27 17:28:50,693 - CRITICAL - ETL load step failed: (1146, "Table 'cricbuzz_etl.series' doesn't exist")
+2025-07-27 17:29:25,944 - INFO - Loaded data/processed/series.json
+2025-07-27 17:29:25,945 - INFO - Loaded data/processed/venues.json
+2025-07-27 17:29:25,945 - INFO - Loaded data/processed/teams.json
+2025-07-27 17:29:25,946 - INFO - Loaded data/processed/matches.json
+2025-07-27 17:29:25,946 - INFO - Loaded data/processed/icc_standings.json
+2025-07-27 17:29:25,946 - ERROR - Error inserting into series: (1048, "Column 'series_id' cannot be null")
+2025-07-27 17:29:25,946 - CRITICAL - ETL load step failed: (1048, "Column 'series_id' cannot be null")
+2025-07-27 17:30:29,959 - INFO - Loaded data/processed/series.json
+2025-07-27 17:30:29,959 - INFO - Loaded data/processed/venues.json
+2025-07-27 17:30:29,960 - INFO - Loaded data/processed/teams.json
+2025-07-27 17:30:29,960 - INFO - Loaded data/processed/matches.json
+2025-07-27 17:30:29,960 - INFO - Loaded data/processed/icc_standings.json
+2025-07-27 17:30:29,961 - INFO - Inserted 19 rows into series
+2025-07-27 17:30:29,961 - ERROR - Error inserting into venues: (1048, "Column 'venue_id' cannot be null")
+2025-07-27 17:30:29,961 - CRITICAL - ETL load step failed: (1048, "Column 'venue_id' cannot be null")
+2025-07-27 17:40:45,235 - INFO - Loaded data/processed/series.json
+2025-07-27 17:40:45,236 - INFO - Loaded data/processed/teams.json
+2025-07-27 17:40:45,236 - INFO - Loaded data/processed/matches.json
+2025-07-27 17:40:45,236 - INFO - Loaded data/processed/icc_standings.json
+2025-07-27 17:40:45,237 - INFO - Inserted 19 rows into series
+2025-07-27 17:40:45,239 - INFO - Inserted 74 rows into teams
+2025-07-27 17:40:45,239 - ERROR - Error inserting into matches: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc, winner_id, win_by) VALUES (114625, 9408, 1, 2, '205/9 (19.6 ov)', '206/7 (' at line 1")
+2025-07-27 17:40:45,239 - CRITICAL - ETL load step failed: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc, winner_id, win_by) VALUES (114625, 9408, 1, 2, '205/9 (19.6 ov)', '206/7 (' at line 1")
+2025-07-27 17:41:41,785 - INFO - Loaded data/processed/series.json
+2025-07-27 17:41:41,786 - INFO - Loaded data/processed/teams.json
+2025-07-27 17:41:41,786 - INFO - Loaded data/processed/matches.json
+2025-07-27 17:41:41,787 - INFO - Loaded data/processed/icc_standings.json
+2025-07-27 17:41:41,789 - INFO - Inserted 19 rows into series
+2025-07-27 17:41:41,790 - INFO - Inserted 74 rows into teams
+2025-07-27 17:41:41,795 - INFO - Inserted 93 rows into matches
+2025-07-27 17:41:41,795 - ERROR - Error inserting into icc_standings: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, flag, team, pct) VALUES (1, '172117', 'Australia', 100.0e0),(2, '172119', ' at line 1")
+2025-07-27 17:41:41,795 - CRITICAL - ETL load step failed: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank, flag, team, pct) VALUES (1, '172117', 'Australia', 100.0e0),(2, '172119', ' at line 1")
+2025-07-27 17:42:46,610 - INFO - Loaded data/processed/series.json
+2025-07-27 17:42:46,611 - INFO - Loaded data/processed/teams.json
+2025-07-27 17:42:46,611 - INFO - Loaded data/processed/matches.json
+2025-07-27 17:42:46,611 - INFO - Loaded data/processed/icc_standings.json
+2025-07-27 17:42:46,612 - INFO - Inserted 19 rows into series
+2025-07-27 17:42:46,614 - INFO - Inserted 74 rows into teams
+2025-07-27 17:42:46,618 - INFO - Inserted 93 rows into matches
+2025-07-27 17:42:46,619 - INFO - Inserted 6 rows into icc_standings
+2025-07-27 17:42:46,619 - INFO - Data loaded into MySQL successfully.

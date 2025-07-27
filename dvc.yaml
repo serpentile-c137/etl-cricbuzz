@@ -1,0 +1,19 @@
+stages:
+  extract:
+    cmd: python src/extract/extract.py
+    deps:
+    - src/extract/extract.py
+    outs:
+    - data/raw/recent_matches.json
+  transform:
+    cmd: python src/transform/transform.py
+    deps:
+    - data/raw/recent_matches.json
+    - src/transform/transform.py
+    outs:
+    - data/processed/cleaned_matches.json
+  load:
+    cmd: python src/load/load.py
+    deps:
+    - data/processed/cleaned_matches.json
+    - src/load/load.py

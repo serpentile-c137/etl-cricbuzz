@@ -1,0 +1,10 @@
+2025-07-27 16:45:39,862 - INFO - Loaded config from config.ini
+2025-07-27 16:45:41,531 - INFO - Fetched recent matches from API.
+2025-07-27 16:45:41,546 - INFO - Saved data to data/raw/recent_matches.json
+2025-07-27 16:45:41,547 - INFO - ETL extract step completed successfully.
+2025-07-27 17:21:05,072 - INFO - Loaded config from config.ini
+2025-07-27 17:21:06,717 - INFO - Fetched recent matches from API.
+2025-07-27 17:21:06,728 - INFO - Saved data to data/raw/recent_matches.json
+2025-07-27 17:21:07,094 - INFO - Fetched ICC standings from API.
+2025-07-27 17:21:07,099 - INFO - Saved data to data/raw/icc_standings.json
+2025-07-27 17:21:07,099 - INFO - ETL extract step completed successfully.

@@ -1,0 +1,19 @@
+2025-07-27 16:45:41,642 - INFO - Loaded data from data/raw/recent_matches.json
+2025-07-27 16:45:41,642 - INFO - Extracted 93 cleaned matches.
+2025-07-27 16:45:41,643 - INFO - Saved data to data/processed/cleaned_matches.json
+2025-07-27 16:45:41,643 - INFO - ETL transform step completed successfully.
+2025-07-27 16:58:33,035 - INFO - Loaded data from data/raw/recent_matches.json
+2025-07-27 16:58:33,036 - INFO - Extracted 93 cleaned matches with scores and metadata.
+2025-07-27 16:58:33,037 - INFO - Saved data to data/processed/cleaned_matches.json
+2025-07-27 16:58:33,037 - INFO - ETL transform step completed successfully.
+2025-07-27 17:06:02,640 - INFO - Normalized data extracted and saved.
+2025-07-27 17:08:05,262 - INFO - Normalized data extracted and saved, including legacy cleaned_matches.json.
+2025-07-27 17:21:07,211 - INFO - Extracted 0 ICC standings records.
+2025-07-27 17:21:07,211 - INFO - Normalized data extracted and saved, including legacy cleaned_matches.json and ICC standings.
+2025-07-27 17:22:26,658 - WARNING - No standings found in ICC standings data.
+2025-07-27 17:22:26,659 - INFO - Extracted 0 ICC standings records.
+2025-07-27 17:22:26,659 - INFO - Normalized data extracted and saved, including legacy cleaned_matches.json and ICC standings.
+2025-07-27 17:24:27,816 - INFO - Extracted 6 ICC standings records.
+2025-07-27 17:24:27,816 - INFO - Normalized data extracted and saved, including legacy cleaned_matches.json and ICC standings.
+2025-07-27 17:40:45,078 - INFO - Extracted 6 ICC standings records.
+2025-07-27 17:40:45,078 - INFO - Normalized data extracted and saved, including legacy cleaned_matches.json and ICC standings.
