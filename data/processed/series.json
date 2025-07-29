@@ -1,7 +1,7 @@
 [
   {
-    "series_id": 9408,
-    "series_name": "Australia tour of West Indies, 2025"
+    "series_id": 8786,
+    "series_name": "India tour of England, 2025"
   },
   {
     "series_id": 10256,
@@ -16,12 +16,16 @@
     "series_name": "Saudi Arabia tour of Qatar 2025"
   },
   {
-    "series_id": 10498,
-    "series_name": "Budapest Cup, 2025"
-  },
-  {
     "series_id": null,
     "series_name": null
+  },
+  {
+    "series_id": 9408,
+    "series_name": "Australia tour of West Indies, 2025"
+  },
+  {
+    "series_id": 10498,
+    "series_name": "Budapest Cup, 2025"
   },
   {
     "series_id": 10471,
@@ -70,10 +74,6 @@
   {
     "series_id": 10053,
     "series_name": "Zimbabwe Women tour of Ireland, 2025"
-  },
-  {
-    "series_id": 10449,
-    "series_name": "Finland Womens T20I Tri Series 2025"
   },
   {
     "series_id": 10295,

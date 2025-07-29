@@ -46,12 +46,14 @@ def fetch_recent_matches(config: configparser.ConfigParser) -> Dict[str, Any]:
         logging.error(f"Failed to fetch recent matches: {e}")
         raise
 
-def fetch_icc_standings() -> Dict[str, Any]:
+def fetch_icc_standings(config: configparser.ConfigParser) -> Dict[str, Any]:
     try:
-        conn = http.client.HTTPSConnection("cricbuzz-cricket.p.rapidapi.com")
+        host = config["API"]["x-rapidapi-host"]
+        key = config["API"]["x-rapidapi-key"]
+        conn = http.client.HTTPSConnection(host)
         headers = {
-            'x-rapidapi-key': "b1bdb8f881msh15fda355128590dp1ba640jsnde74526adc66",
-            'x-rapidapi-host': "cricbuzz-cricket.p.rapidapi.com"
+            'x-rapidapi-key': key,
+            'x-rapidapi-host': host
         }
         conn.request("GET", "/stats/v1/iccstanding/team/matchtype/1", headers=headers)
         res = conn.getresponse()
@@ -81,7 +83,7 @@ def main() -> None:
         json_data = fetch_recent_matches(config)
         save_json(json_data, "data/raw/recent_matches.json")
         # Fetch and save ICC standings
-        icc_data = fetch_icc_standings()
+        icc_data = fetch_icc_standings(config)
         save_json(icc_data, "data/raw/icc_standings.json")
         logging.info("ETL extract step completed successfully.")
     except Exception as e:

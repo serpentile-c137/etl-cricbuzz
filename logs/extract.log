@@ -8,3 +8,18 @@
 2025-07-27 17:21:07,094 - INFO - Fetched ICC standings from API.
 2025-07-27 17:21:07,099 - INFO - Saved data to data/raw/icc_standings.json
 2025-07-27 17:21:07,099 - INFO - ETL extract step completed successfully.
+2025-07-29 12:04:13,994 - INFO - Loaded config from config.ini
+2025-07-29 12:04:14,988 - INFO - Fetched recent matches from API.
+2025-07-29 12:04:15,000 - INFO - Saved data to data/raw/recent_matches.json
+2025-07-29 12:04:15,000 - ERROR - Failed to fetch ICC standings: name 'config' is not defined
+2025-07-29 12:04:15,001 - CRITICAL - ETL extract step failed: name 'config' is not defined
+2025-07-29 12:04:56,089 - INFO - Loaded config from config.ini
+2025-07-29 12:04:56,918 - INFO - Fetched recent matches from API.
+2025-07-29 12:04:56,931 - INFO - Saved data to data/raw/recent_matches.json
+2025-07-29 12:04:56,931 - CRITICAL - ETL extract step failed: fetch_icc_standings() missing 1 required positional argument: 'config'
+2025-07-29 12:06:33,385 - INFO - Loaded config from config.ini
+2025-07-29 12:06:34,095 - INFO - Fetched recent matches from API.
+2025-07-29 12:06:34,109 - INFO - Saved data to data/raw/recent_matches.json
+2025-07-29 12:06:34,514 - INFO - Fetched ICC standings from API.
+2025-07-29 12:06:34,519 - INFO - Saved data to data/raw/icc_standings.json
+2025-07-29 12:06:34,519 - INFO - ETL extract step completed successfully.

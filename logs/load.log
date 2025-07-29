@@ -63,3 +63,4 @@
 2025-07-27 17:42:46,618 - INFO - Inserted 93 rows into matches
 2025-07-27 17:42:46,619 - INFO - Inserted 6 rows into icc_standings
 2025-07-27 17:42:46,619 - INFO - Data loaded into MySQL successfully.
+2025-07-29 12:06:34,786 - CRITICAL - ETL load step failed: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")

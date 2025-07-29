@@ -5,20 +5,20 @@ stages:
     deps:
     - path: src/extract/extract.py
       hash: md5
-      md5: 6585190b2eb708f3b1815df49fe9b9c0
-      size: 3159
+      md5: 3fab7687f0294835352b281484240c53
+      size: 3185
     outs:
     - path: data/raw/recent_matches.json
       hash: md5
-      md5: d5ee3a347a1681c42b39e87549d4d05b
-      size: 195782
+      md5: d9c9e0917071e8347900d41e9abf8218
+      size: 181781
   transform:
     cmd: python src/transform/transform.py
     deps:
     - path: data/raw/recent_matches.json
       hash: md5
-      md5: d5ee3a347a1681c42b39e87549d4d05b
-      size: 195782
+      md5: d9c9e0917071e8347900d41e9abf8218
+      size: 181781
     - path: src/transform/transform.py
       hash: md5
       md5: 9be4a97feb438e2f9b73b7780dd48909
@@ -26,15 +26,15 @@ stages:
     outs:
     - path: data/processed/cleaned_matches.json
       hash: md5
-      md5: b053d4d009f9c55ca729f4f4dde7aaeb
-      size: 26811
+      md5: 9c451d75bdca99a7d26789a7558b88a9
+      size: 24740
   load:
     cmd: python src/load/load.py
     deps:
     - path: data/processed/cleaned_matches.json
       hash: md5
-      md5: b053d4d009f9c55ca729f4f4dde7aaeb
-      size: 26811
+      md5: 9c451d75bdca99a7d26789a7558b88a9
+      size: 24740
     - path: src/load/load.py
       hash: md5
       md5: 0d63149f6f17a212f53bbeba856ba7dc

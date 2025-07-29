@@ -1,11 +1,11 @@
 [
   {
     "team_id": 1,
-    "team_name": "West Indies"
+    "team_name": "India"
   },
   {
     "team_id": 2,
-    "team_name": "Australia"
+    "team_name": "England"
   },
   {
     "team_id": 3,
@@ -21,43 +21,43 @@
   },
   {
     "team_id": 6,
-    "team_name": "South Africa"
-  },
-  {
-    "team_id": 7,
     "team_name": "Zimbabwe"
   },
   {
-    "team_id": 8,
-    "team_name": "Saudi Arabia"
+    "team_id": 7,
+    "team_name": "South Africa"
   },
   {
-    "team_id": 9,
+    "team_id": 8,
     "team_name": "Qatar"
   },
   {
+    "team_id": 9,
+    "team_name": "Saudi Arabia"
+  },
+  {
     "team_id": 10,
-    "team_name": "Hungary"
+    "team_name": "West Indies"
   },
   {
     "team_id": 11,
-    "team_name": "Austria"
+    "team_name": "Australia"
   },
   {
     "team_id": 12,
-    "team_name": "Luxembourg"
+    "team_name": "Hungary"
   },
   {
     "team_id": 13,
-    "team_name": "Romania"
+    "team_name": "Luxembourg"
   },
   {
     "team_id": 14,
-    "team_name": "Rwanda"
+    "team_name": "Austria"
   },
   {
     "team_id": 15,
-    "team_name": "Malawi"
+    "team_name": "Romania"
   },
   {
     "team_id": 16,
@@ -65,35 +65,35 @@
   },
   {
     "team_id": 17,
-    "team_name": "United Arab Emirates"
+    "team_name": "Malawi"
   },
   {
     "team_id": 18,
-    "team_name": "Nigeria"
+    "team_name": "Rwanda"
   },
   {
     "team_id": 19,
-    "team_name": "Kenya"
-  },
-  {
-    "team_id": 20,
     "team_name": "Uganda"
   },
   {
+    "team_id": 20,
+    "team_name": "United Arab Emirates"
+  },
+  {
     "team_id": 21,
-    "team_name": "Finland"
+    "team_name": "Nigeria"
   },
   {
     "team_id": 22,
-    "team_name": "Estonia"
+    "team_name": "Kenya"
   },
   {
     "team_id": 23,
-    "team_name": "Hong Kong"
+    "team_name": "Estonia"
   },
   {
     "team_id": 24,
-    "team_name": "Malaysia"
+    "team_name": "Finland"
   },
   {
     "team_id": 25,
@@ -101,27 +101,27 @@
   },
   {
     "team_id": 26,
-    "team_name": "Singapore"
+    "team_name": "Malaysia"
   },
   {
     "team_id": 27,
-    "team_name": "Genid Yanam Royals"
+    "team_name": "Hong Kong"
   },
   {
     "team_id": 28,
-    "team_name": "Ruby White Town Legends"
+    "team_name": "Singapore"
   },
   {
     "team_id": 29,
-    "team_name": "Villianur Mohit Kings"
-  },
-  {
-    "team_id": 30,
     "team_name": "Mahe Megalo Strikers"
   },
   {
+    "team_id": 30,
+    "team_name": "Villianur Mohit Kings"
+  },
+  {
     "team_id": 31,
-    "team_name": "Karaikal Kniights"
+    "team_name": "Ruby White Town Legends"
   },
   {
     "team_id": 32,
@@ -129,170 +129,170 @@
   },
   {
     "team_id": 33,
-    "team_name": "India Champions"
+    "team_name": "Karaikal Kniights"
   },
   {
     "team_id": 34,
-    "team_name": "Pakistan Champions"
+    "team_name": "Genid Yanam Royals"
   },
   {
     "team_id": 35,
-    "team_name": "West Indies Champions"
-  },
-  {
-    "team_id": 36,
-    "team_name": "Australia Champions"
-  },
-  {
-    "team_id": 37,
     "team_name": "England Champions"
   },
   {
-    "team_id": 38,
+    "team_id": 36,
+    "team_name": "India Champions"
+  },
+  {
+    "team_id": 37,
     "team_name": "South Africa Champions"
   },
   {
+    "team_id": 38,
+    "team_name": "Australia Champions"
+  },
+  {
     "team_id": 39,
-    "team_name": "England U19"
+    "team_name": "Pakistan Champions"
   },
   {
     "team_id": 40,
-    "team_name": "India U19"
+    "team_name": "West Indies Champions"
   },
   {
     "team_id": 41,
-    "team_name": "Nottinghamshire"
+    "team_name": "England U19"
   },
   {
     "team_id": 42,
-    "team_name": "Hampshire"
+    "team_name": "India U19"
   },
   {
     "team_id": 43,
-    "team_name": "Sussex"
+    "team_name": "Nottinghamshire"
   },
   {
     "team_id": 44,
-    "team_name": "Essex"
+    "team_name": "Hampshire"
   },
   {
     "team_id": 45,
-    "team_name": "Durham"
+    "team_name": "Sussex"
   },
   {
     "team_id": 46,
-    "team_name": "Somerset"
+    "team_name": "Essex"
   },
   {
     "team_id": 47,
-    "team_name": "Yorkshire"
+    "team_name": "Durham"
   },
   {
     "team_id": 48,
-    "team_name": "Surrey"
+    "team_name": "Somerset"
   },
   {
     "team_id": 49,
-    "team_name": "Worcestershire"
+    "team_name": "Yorkshire"
   },
   {
     "team_id": 50,
-    "team_name": "Warwickshire"
+    "team_name": "Surrey"
   },
   {
     "team_id": 51,
-    "team_name": "Sri Lanka A"
+    "team_name": "Worcestershire"
   },
   {
     "team_id": 52,
-    "team_name": "Australia A"
+    "team_name": "Warwickshire"
   },
   {
     "team_id": 53,
-    "team_name": "Leicestershire"
+    "team_name": "Sri Lanka A"
   },
   {
     "team_id": 54,
-    "team_name": "Derbyshire"
+    "team_name": "Australia A"
   },
   {
     "team_id": 55,
-    "team_name": "Kent"
-  },
-  {
-    "team_id": 56,
-    "team_name": "Glamorgan"
-  },
-  {
-    "team_id": 57,
-    "team_name": "Lancashire"
-  },
-  {
-    "team_id": 58,
-    "team_name": "Gloucestershire"
-  },
-  {
-    "team_id": 59,
     "team_name": "Middlesex"
   },
   {
-    "team_id": 60,
+    "team_id": 56,
     "team_name": "Northamptonshire"
   },
   {
+    "team_id": 57,
+    "team_name": "Leicestershire"
+  },
+  {
+    "team_id": 58,
+    "team_name": "Derbyshire"
+  },
+  {
+    "team_id": 59,
+    "team_name": "Lancashire"
+  },
+  {
+    "team_id": 60,
+    "team_name": "Gloucestershire"
+  },
+  {
     "team_id": 61,
-    "team_name": "India Women"
+    "team_name": "Kent"
   },
   {
     "team_id": 62,
-    "team_name": "England Women"
+    "team_name": "Glamorgan"
   },
   {
     "team_id": 63,
-    "team_name": "Ireland Women"
+    "team_name": "India Women"
   },
   {
     "team_id": 64,
-    "team_name": "Zimbabwe Women"
+    "team_name": "England Women"
   },
   {
     "team_id": 65,
-    "team_name": "Finland Women"
+    "team_name": "Zimbabwe Women"
   },
   {
     "team_id": 66,
-    "team_name": "Switzerland Women"
+    "team_name": "Ireland Women"
   },
   {
     "team_id": 67,
-    "team_name": "Botswana Women"
-  },
-  {
-    "team_id": 68,
-    "team_name": "Sierra Leone Women"
-  },
-  {
-    "team_id": 69,
-    "team_name": "Lesotho Women"
-  },
-  {
-    "team_id": 70,
-    "team_name": "Eswatini Women"
-  },
-  {
-    "team_id": 71,
     "team_name": "Malawi Women"
   },
   {
-    "team_id": 72,
-    "team_name": "Rwanda Women"
+    "team_id": 68,
+    "team_name": "Lesotho Women"
   },
   {
-    "team_id": 73,
+    "team_id": 69,
+    "team_name": "Sierra Leone Women"
+  },
+  {
+    "team_id": 70,
+    "team_name": "Cameroon Women"
+  },
+  {
+    "team_id": 71,
+    "team_name": "Eswatini Women"
+  },
+  {
+    "team_id": 72,
     "team_name": "Mozambique Women"
   },
   {
+    "team_id": 73,
+    "team_name": "Botswana Women"
+  },
+  {
     "team_id": 74,
-    "team_name": "Cameroon Women"
+    "team_name": "Rwanda Women"
   }
 ]
